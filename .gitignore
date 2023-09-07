@@ -23,11 +23,6 @@ package-lock.json
 # Ignore generated documentation
 docs/
 
-# Ignore compiled code files
-*.js
-*.css
-*.html
-
 # Ignore user-specific settings files
 .editorconfig
 .eslintrc.user
