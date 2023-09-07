@@ -1,0 +1,44 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+dist/
+build/
+out/
+
+# Ignore environment-specific files
+.env
+
+# Ignore editor/IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore dependency management files
+yarn.lock
+package-lock.json
+
+# Ignore generated documentation
+docs/
+
+# Ignore compiled code files
+*.js
+*.css
+*.html
+
+# Ignore user-specific settings files
+.editorconfig
+.eslintrc.user
+
+# Ignore sensitive information (NEVER commit secrets)
+secrets.json
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore user-specific files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
